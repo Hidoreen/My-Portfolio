@@ -1,0 +1,85 @@
+header{
+  overflow: hidden;
+  padding-top: 3rem;
+  height: 100vh;
+}
+
+.header__container{
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.myPhoto{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #7A871E;
+  padding-top: 5rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom: 0;
+}
+
+.myPhoto img{
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.socials{
+  position: absolute;
+  bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+}
+
+.socials a{
+  font-size: 1.95rem;
+  transition: all 400ms ease;
+}
+
+.socials a:hover{
+transform: rotate(360deg);
+}
+
+.socials::after{
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: var(--color-primary);
+}
+
+.scrollDown{
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+  transform: rotate(90deg);
+  color: var( --color-secondary);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .container{
+    width: var(--container-width-md);
+  }
+
+  header{
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    height: 100vh;
+  }
+
+  .socials,
+  .header__container p{
+    display: none;
+  }
+
+}
+
+

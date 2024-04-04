@@ -1,0 +1,114 @@
+.contact{
+  height: 100vh;
+  padding-top: 1.5rem;
+}
+.contact p{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.contact h5{
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+  gap: 10px;
+}
+
+label{
+  display: block;
+  font-size: 1.3rem;
+}
+
+.name input,
+.email input{
+  padding: 12px 250px 12px 0px; 
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.name,
+.email{
+  max-width: 100%;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: .75rem;
+}
+
+textarea{
+  padding-left: 12px;
+  padding-top: 12px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.submitBtn{
+  padding: 12px 10rem;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+  font-size: medium;
+  font-weight: 600;
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+/* ==========MEDIA QUERIES ======= */
+@media screen and (max-width: 1024px) {
+  .container{
+    width: var(--container-width-md);
+  }
+
+  .details{
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    width: var(--container-width-sm);
+  }
+
+  .details{
+    gap: 2rem;
+  }
+
+.name input,
+.email input{
+  padding: 8px;
+}
+
+.message{
+  gap: 1rem;
+}
+
+textarea{
+letter-spacing: 2px;
+}
+
+.contact p{
+  font-size: 1rem;
+}
+
+  section{
+    margin-top: 2rem;
+  }
+}
