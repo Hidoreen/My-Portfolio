@@ -3,6 +3,7 @@ import img2 from '../../assets/project2.png'
 import img3 from '../../assets/project3.png'
 import img4 from '../../assets/project4.png'
 import img5 from '../../assets/project5.png'
+import img7 from '../../assets/project7.png'
 
 const data = [
   {
@@ -27,6 +28,14 @@ const data = [
   title: 'To-do App',
   github: 'https://github.com/Hidoreen/CRUD_App',
   live: 'https://hidoreen.github.io/CRUD_App/'
+  },
+
+  {
+    id: 7,
+    img: img7,
+    title: 'My Portfolio',
+    github: 'https://github.com/Hidoreen/My-Portfolio',
+    live:''
   },
   
   {
