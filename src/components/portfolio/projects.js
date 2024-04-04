@@ -2,7 +2,6 @@ import img1 from '../../assets/project1.png'
 import img2 from '../../assets/project2.png'
 import img3 from '../../assets/project3.png'
 import img4 from '../../assets/project4.png'
-import img5 from '../../assets/project5.png'
 import img7 from '../../assets/project7.png'
 import img8 from '../../assets/project8.png'
 
@@ -54,14 +53,6 @@ const data = [
   github: 'https://github.com/Hidoreen/tic-tac-toe',
   live: 'https://hidoreen.github.io/tic-tac-toe/'
   },
-  
-  // {
-  // id: 5,
-  // img: img5,
-  // title: 'Rock-Paper-Scissors',
-  // github: 'https://github.com/Hidoreen/rock_paper_scissors',
-  // live: 'https://hidoreen.github.io/rock_paper_scissors/'
-  // },
   ]
 
   export default data
