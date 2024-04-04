@@ -3,7 +3,7 @@
 Welcome to knowing more about my skills and my curiousity.
 
 ## Preview
-[Live View](https://hidoreen.github.io/food-recipe-app/)
+[Live View](https://hidoreen.github.io/My-Portfolio/)
 
 ## Contributing
 
