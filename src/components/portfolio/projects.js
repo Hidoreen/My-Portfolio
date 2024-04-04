@@ -4,6 +4,7 @@ import img3 from '../../assets/project3.png'
 import img4 from '../../assets/project4.png'
 import img5 from '../../assets/project5.png'
 import img7 from '../../assets/project7.png'
+import img8 from '../../assets/project8.png'
 
 const data = [
   {
@@ -12,6 +13,14 @@ const data = [
   title: 'Shopping Cart',
   github: 'https://github.com/Hidoreen/shopping-cart',
   live: 'https://hidoreen.github.io/shopping-cart/'
+  },
+
+  {
+    id:8,
+    img: img8,
+    title: 'Cv Builder',
+    github: 'https://github.com/Hidoreen/CV-builder',
+    live: ''
   },
   
   {
@@ -46,13 +55,13 @@ const data = [
   live: 'https://hidoreen.github.io/tic-tac-toe/'
   },
   
-  {
-  id: 5,
-  img: img5,
-  title: 'Rock-Paper-Scissors',
-  github: 'https://github.com/Hidoreen/rock_paper_scissors',
-  live: 'https://hidoreen.github.io/rock_paper_scissors/'
-  },
+  // {
+  // id: 5,
+  // img: img5,
+  // title: 'Rock-Paper-Scissors',
+  // github: 'https://github.com/Hidoreen/rock_paper_scissors',
+  // live: 'https://hidoreen.github.io/rock_paper_scissors/'
+  // },
   ]
 
   export default data
