@@ -35,7 +35,7 @@ const data = [
     img: img7,
     title: 'My Portfolio',
     github: 'https://github.com/Hidoreen/My-Portfolio',
-    live:''
+    live:'https://hidoreen.github.io/My-Portfolio/'
   },
   
   {
