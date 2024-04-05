@@ -30,7 +30,7 @@ const Contact = () => {
       <p>
         A question? proposal? idea? want to say hello? &nbsp; You are welcome.
       </p>
-      <form onSubmit={(e) => sendEmail(e)} method="POST" target="_blank" ref={form} id="form">
+      <form onSubmit={sendEmail} target="_blank" ref={form} id="form">
           <div className="details">
             <div className="name">
               <label>Your Name</label>

@@ -16,10 +16,10 @@
 }
 
 .details{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   align-items: center;
-  padding: 2rem 0 2rem 0;
   gap: 10px;
 }
 
@@ -30,12 +30,13 @@ label{
 
 .name input,
 .email input{
-  padding: 12px 250px 12px 0px; 
+  padding: 12px 20px 12px 12px; 
   background-color: transparent;
   border-bottom: 2px solid white;
   color: white;
   letter-spacing: 2px;
   font-size: 1.2rem;
+  width: 70%;
 }
 
 .name,
@@ -88,12 +89,14 @@ textarea{
   }
 
   .details{
+    grid-template-columns: 1fr;
     gap: 2rem;
   }
 
 .name input,
 .email input{
-  padding: 8px;
+  padding: 6px;
+  width: 100%;
 }
 
 .message{

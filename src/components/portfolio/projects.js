@@ -24,7 +24,7 @@ const data = [
   
   {
   id: 2,
-  img: img2,
+  img: img3,
   title: 'Food Recipe App',
   github: 'https://github.com/Hidoreen/food-recipe-app',
   live: 'https://hidoreen.github.io/food-recipe-app/'
@@ -32,7 +32,7 @@ const data = [
   
   {
   id: 3,
-  img: img3,
+  img: img2,
   title: 'To-do App',
   github: 'https://github.com/Hidoreen/CRUD_App',
   live: 'https://hidoreen.github.io/CRUD_App/'
